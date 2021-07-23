@@ -1,0 +1,422 @@
+/* line 3, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* line 9, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 13, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 80px 0;
+  max-width: 1200px;
+}
+
+/*Header y navegacion*/
+/* line 24, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.subtitle {
+  color: #833ab4;
+  font-size: 2.5rem;
+  margin-bottom: 35px;
+}
+
+/* line 30, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.header {
+  height: 100vh;
+  background-image: url(../img/header3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+/* line 38, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.header .container {
+  padding: 0px;
+}
+
+/* line 45, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 70px;
+  align-items: center;
+  font-weight: 700;
+}
+
+/* line 51, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7em;
+  background-color: transparent;
+}
+
+/* line 62, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.nav ul li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 50px;
+  margin: 5px;
+  line-height: 10px;
+  padding: 15px;
+}
+
+/* line 74, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 4px;
+  cursor: pointer;
+}
+
+/* line 80, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.nav ul li a:hover {
+  background-color: #6b5288;
+  color: white;
+  padding: auto;
+}
+
+/* line 95, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.headerContainer {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  color: white;
+}
+
+/* line 103, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.headerTexts {
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+/* line 109, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.headerTitle {
+  font-size: 3.2rem;
+  text-shadow: 5px 4px 10px #833ab4;
+}
+
+/* line 114, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.headersubtitle {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 15px 0;
+}
+
+/* line 122, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.headerWave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+
+/*Seccion principal*/
+/* line 133, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.presentation {
+  padding-top: 0;
+  text-align: center;
+}
+
+/* line 138, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.presentationPicture {
+  width: 300x;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+/* line 145, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.presentationCopy {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+/* line 152, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.presentationBoton {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 50px;
+  margin: 5px;
+  line-height: 10px;
+  padding: 15px;
+}
+
+/* seccion about*/
+/* line 170, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.about {
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 80px;
+  justify-items: center;
+  align-items: center;
+}
+
+/* line 180, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.aboutImg {
+  text-align: center;
+}
+
+/* line 184, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.aboutPicture {
+  max-width: 80%;
+}
+
+/* line 188, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.aboutParagraph {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+/*card*/
+/* line 197, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 203, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.card {
+  background-color: #cccccc;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+/* line 213, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.card__img {
+  width: 300px;
+  height: 180px;
+  margin-right: 30px;
+}
+
+/* line 219, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.card__titulo {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* line 224, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.card__parrafo {
+  line-height: 28px;
+  font-size: 1rem;
+}
+
+/* line 231, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.boton--derecha {
+  position: absolute;
+  right: 20px;
+  bottom: -25px;
+}
+
+/* seccion projects */
+/* line 240, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.projects {
+  background: #f2f2f2;
+}
+
+/* line 245, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.projects .projectsGrid {
+  height: 550px;
+  display: grid;
+  grid-template-areas: "gym1 gym1 gym2 gym3" "gym1 gym1 gym4 gym5";
+  gap: 10px;
+}
+
+/* line 254, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.projectsItems {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 261, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.projectsImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 50px;
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+/* line 272, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.projectsImg:hover {
+  transform: scale(1.5);
+}
+
+/* line 277, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.projectsItems:nth-of-type(1) {
+  grid-area: gym1;
+}
+
+/* line 281, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.projectsItems:nth-of-type(2) {
+  grid-area: gym2;
+}
+
+/* line 285, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.projectsItems:nth-of-type(3) {
+  grid-area: gym3;
+}
+
+/* line 289, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.projectsItems:nth-of-type(4) {
+  grid-area: gym4;
+}
+
+/* line 293, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.projectsItems:nth-of-type(5) {
+  grid-area: gym5;
+}
+
+/*testimonios de usuarios*/
+/* line 299, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.testimonyGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+/* line 307, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.testimonyItem {
+  width: 95%;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 7px;
+  padding: 30px 25px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+/* line 319, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.testimonyperson {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* line 327, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.testimonyImg {
+  width: 100px;
+  min-width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50px;
+  border: 3px solid white;
+  margin-right: 30px;
+}
+
+/* line 338, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.testimonyName {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* line 343, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.testimonyVerification {
+  color: #833ab4;
+  font-weight: bold;
+}
+
+/* line 348, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.testimonyReview {
+  font-weight: lighter;
+}
+
+/*footer*/
+/* line 355, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.footer {
+  background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+/* line 360, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.navFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 365, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.footerGrid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 20px;
+  align-items: center;
+}
+
+/* line 373, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.footerTitle {
+  font-weight: 400;
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* line 382, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.footerIcons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 388, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.footerIcon {
+  color: #000;
+}
+
+/* line 390, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.footerIcon:hover {
+  color: #833ab4;
+}
+
+/* line 396, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.navItems {
+  color: #000;
+}
+
+/* line 398, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.navItems:hover {
+  color: #833ab4;
+}
+
+/* line 404, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Coder House/pre entrega 4/sass/styles.scss */
+.footerContainerIcons {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  color: black;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

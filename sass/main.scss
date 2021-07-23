@@ -1,0 +1,14 @@
+@mixin botones {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 50px;
+    margin: 5px;
+    line-height: 10px;
+    height: 60px;
+    padding: 20px;
+    
+}

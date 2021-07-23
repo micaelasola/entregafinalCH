@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../sass/main.scss"
+	],
+	"sourcesContent": [
+		"@mixin botones {\n    display: inline-block;\n    font-family: 'Roboto', sans-serif;\n    font-size: 15px;\n    background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);\n    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);\n    -webkit-backdrop-filter: blur(5.5px);\n    border-radius: 50px;\n    margin: 5px;\n    line-height: 10px;\n    height: 60px;\n    padding: 20px;\n    \n}"
+	],
+	"names": [],
+	"mappings": ""
+}
