@@ -472,59 +472,73 @@ h1{
 
 /*testimonios de usuarios*/
 
-.testimonyGrid{
-    width: 100%; 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+/* Inicio Card testimonios */
+
+.profile-area{
+    padding: 80px;
 
 }
 
-.testimonyItem{ 
-    width: 95%; 
-    margin: 0 auto;
-    background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    border-radius: 7px;
-    padding: 30px 25px;
-    color: white;
-    margin-bottom: 50px;
-
+.cardTestimonio{
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 15px;
+    height: auto;
+    width: auto;
 }
 
-.testimonyperson{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
 
-
+.img1 img{
+    height: 150px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
-.testimonyImg{
+.img2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
     width: 100px;
     min-width: 100px;
     height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
     object-fit: cover; 
     object-position: top;
-    border-radius: 50px;
-    border: 3px solid white;
-    margin-right: 30px;
+    margin-top: -80px;
+    
 }
 
-.testimonyName{
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+.img2 img:hover{
+    filter:grayscale(50%);
 }
 
-.testimonyVerification{
-    color: rgb(107, 82, 136);
-    font-weight: bold;
+.cardTestimonio:hover .img2 img{
+    border-color: darkcyan;
+    transition: .7s;
 }
 
-.testimonyReview{
-    font-weight: lighter;
+.main-text{
+    padding: 30px 0;
+    text-align: center;
+}
+
+.maint-text h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px;
 
 }
+
+.main-text p{
+    font-size: 16px;
+    padding: 0 35px;
+}
+
+
 
 .contenedor {
     max-width: 1000px;
