@@ -35,18 +35,18 @@ body {
 }
 
 /*Header y navegacion*/
-/* line 52, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 51, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .carousel-item {
   height: 100vh;
   min-height: 300px;
 }
 
-/* line 56, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 55, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .carousel-caption {
   bottom: 220px;
 }
 
-/* line 59, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 58, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .carousel-caption h5 {
   font-size: 45px;
   text-transform: uppercase;
@@ -57,7 +57,7 @@ body {
   font-style: italic;
 }
 
-/* line 68, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 67, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .carousel-caption p {
   width: 60%;
   margin: auto;
@@ -66,7 +66,7 @@ body {
   font-family: 'Roboto' sans-serif;
 }
 
-/* line 76, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 75, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .carousel-caption a {
   text-transform: uppercase;
   background: #262626;
@@ -76,7 +76,7 @@ body {
   margin-top: 15px;
 }
 
-/* line 84, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 83, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .navbar-nav a {
   font-family: 'Roboto';
   font-size: 18px;
@@ -84,7 +84,7 @@ body {
   font-weight: bold;
 }
 
-/* line 90, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 89, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .navbar-light .navbar-brand {
   color: #fff;
   font-size: 25px;
@@ -93,32 +93,32 @@ body {
   letter-spacing: 2px;
 }
 
-/* line 97, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 96, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
   color: #fff;
 }
 
-/* line 100, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 99, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
 }
 
-/* line 103, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 102, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .navbar-nav {
   text-align: center;
 }
 
-/* line 106, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 105, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .nav-link {
   padding: .2rem 1rem;
 }
 
-/* line 109, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 108, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .nav-link.active, .nav-link:focus {
   color: #fff;
 }
 
-/* line 112, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 111, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .navbar-toggler {
   padding: 1px 5px;
   font-size: 18px;
@@ -126,29 +126,62 @@ body {
   background: #fff;
 }
 
-/* line 118, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 117, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   color: #000;
 }
 
-/* line 121, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 120, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .w-100 {
   height: 100vh;
 }
 
+/* line 124, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+.headerphoto {
+  object-fit: cover;
+}
+
+/* line 128, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+.wave {
+  position: relative;
+}
+
+/* line 132, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+.custom-shape-divider-bottom-1628567019 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+/* line 141, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+.custom-shape-divider-bottom-1628567019 svg {
+  position: relative;
+  display: block;
+  width: calc(135% + 1.3px);
+  height: 73px;
+}
+
+/* line 148, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+.custom-shape-divider-bottom-1628567019 .shape-fill {
+  fill: #FFFFFF;
+}
+
 @media only screen and (max-width: 767px) {
-  /* line 126, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+  /* line 153, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
   .navbar-nav.ml-auto {
     background: rgba(0, 0, 0, 0.5);
   }
-  /* line 129, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+  /* line 156, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
   .navbar-nav a {
     font-size: 14px;
     font-weight: normal;
   }
 }
 
-/* line 137, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 164, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 h1 {
   font-family: 'Montserrat' sans-serif;
   font-style: italic;
@@ -156,22 +189,13 @@ h1 {
   margin-top: 20vh;
 }
 
-/* line 144, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
-.headerWave {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-}
-
-/* line 152, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 172, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .button {
   margin: 10%;
   text-align: center;
 }
 
-/* line 155, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 175, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .button a {
   color: #fff;
   text-decoration: none;
@@ -179,7 +203,7 @@ h1 {
   cursor: pointer;
 }
 
-/* line 163, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 183, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .btn-hover {
   width: 200px;
   font-size: 16px;
@@ -198,7 +222,7 @@ h1 {
   transition: all .4s ease-in-out;
 }
 
-/* line 182, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 202, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .btn-hover:hover {
   background-position: 100% 0;
   moz-transition: all .4s ease-in-out;
@@ -207,49 +231,49 @@ h1 {
   transition: all .4s ease-in-out;
 }
 
-/* line 190, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 210, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .btn-hover:focus {
   outline: none;
 }
 
-/* line 194, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 214, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .btn-hover.color-1 {
   background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
   box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
 }
 
-/* line 200, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 220, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .presentacion {
   padding-top: 0;
   text-align: center;
 }
 
-/* line 203, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 223, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .presentacion h2 {
   font-family: 'Raleway' sans-serif;
 }
 
-/* line 207, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 227, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .presentation {
   padding-top: 0;
   text-align: center;
 }
 
-/* line 212, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 232, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .presentationPicture {
   width: 300x;
   height: 300px;
   margin-bottom: 10px;
 }
 
-/* line 219, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 239, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .presentationCopy {
   width: 80%;
   margin: 0 auto;
   padding-bottom: 25px;
 }
 
-/* line 226, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 246, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .presentationBoton {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
@@ -264,7 +288,7 @@ h1 {
 }
 
 /* seccion about*/
-/* line 244, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 264, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .about {
   min-height: 400px;
   display: grid;
@@ -274,35 +298,35 @@ h1 {
   align-items: center;
 }
 
-/* line 254, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 274, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .aboutTexts {
   font-size: 20px;
   font-family: 'Montserrat' sans-serif;
 }
 
-/* line 259, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 279, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .subtitle {
   font-family: 'Montserrat' sans-serif;
   color: #833ab4;
   font-weight: bolder;
 }
 
-/* line 265, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 285, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .aboutImg {
   text-align: center;
 }
 
-/* line 267, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 287, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .aboutImg:hover {
   filter: opacity(0.5);
 }
 
-/* line 272, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 292, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .aboutPicture {
   max-width: 80%;
 }
 
-/* line 277, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 297, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .aboutParagraph {
   margin-bottom: 20px;
   line-height: 1.5;
@@ -310,7 +334,7 @@ h1 {
 }
 
 /*tarjetas*/
-/* line 286, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 306, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .card {
   text-align: center;
   width: 100%;
@@ -322,12 +346,12 @@ h1 {
   color: white;
 }
 
-/* line 297, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 317, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .tarjetas {
   padding-top: 0;
 }
 
-/* line 302, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 322, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .info {
   font-size: 15px;
   font-family: 'Roboto' sans-serif;
@@ -336,7 +360,7 @@ h1 {
 }
 
 /* seccion submit */
-/* line 313, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 333, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .get-in-touch {
   max-width: 700px;
   margin: 50px auto;
@@ -345,7 +369,7 @@ h1 {
   padding: 30px;
 }
 
-/* line 321, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 341, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .get-in-touch .subtitle {
   text-transform: uppercase;
   text-align: center;
@@ -359,13 +383,13 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-/* line 334, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 354, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .contact-form .form-field {
   position: relative;
   margin: 32px 0;
 }
 
-/* line 341, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 361, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .contact-form .input-text {
   display: block;
   width: 100%;
@@ -377,18 +401,18 @@ h1 {
   font-weight: 400;
 }
 
-/* line 352, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 372, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .contact-form .input-text:focus + .label,
 .contact-form .input-text.not-empty + .label {
   transform: translateY(-24px);
 }
 
-/* line 356, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 376, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .contact-form .input-text:focus {
   outline: none;
 }
 
-/* line 361, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 381, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .contact-form .label {
   position: absolute;
   left: 20px;
@@ -402,7 +426,7 @@ h1 {
   transition: transform 0.2s ease-in-out;
 }
 
-/* line 375, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 395, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .contact-form .submit-btn {
   display: block;
   background-image: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
@@ -417,43 +441,43 @@ h1 {
 }
 
 /* seccion galeria */
-/* line 392, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 412, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .item:hover {
   filter: brightness(80%);
 }
 
-/* line 396, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 416, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .projectsImg:hover {
   transform: scale(1.5);
 }
 
-/* line 401, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 421, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .projectsItems:nth-of-type(1) {
   grid-area: gym1;
 }
 
-/* line 405, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 425, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .projectsItems:nth-of-type(2) {
   grid-area: gym2;
 }
 
-/* line 409, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 429, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .projectsItems:nth-of-type(3) {
   grid-area: gym3;
 }
 
-/* line 413, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 433, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .projectsItems:nth-of-type(4) {
   grid-area: gym4;
 }
 
-/* line 417, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 437, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .projectsItems:nth-of-type(5) {
   grid-area: gym5;
 }
 
 /*testimonios de usuarios*/
-/* line 423, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 443, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .testimonyGrid {
   width: 100%;
   display: grid;
@@ -461,7 +485,7 @@ h1 {
   gap: 30px;
 }
 
-/* line 431, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 451, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .testimonyItem {
   width: 95%;
   margin: 0 auto;
@@ -473,14 +497,14 @@ h1 {
   margin-bottom: 50px;
 }
 
-/* line 443, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 463, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .testimonyperson {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
 
-/* line 451, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 471, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .testimonyImg {
   width: 100px;
   min-width: 100px;
@@ -492,31 +516,31 @@ h1 {
   margin-right: 30px;
 }
 
-/* line 462, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 482, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .testimonyName {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-/* line 467, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 487, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .testimonyVerification {
   color: #6b5288;
   font-weight: bold;
 }
 
-/* line 472, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 492, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .testimonyReview {
   font-weight: lighter;
 }
 
-/* line 477, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 497, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .contenedor {
   max-width: 1000px;
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 484, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 504, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .card {
   background-color: #cccccc;
   border-radius: 15px;
@@ -527,26 +551,26 @@ h1 {
   margin-bottom: 50px;
 }
 
-/* line 495, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 515, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .card__img {
   width: 300px;
   height: 180px;
   margin-right: 30px;
 }
 
-/* line 502, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 522, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .card__titulo {
   font-size: 1.5rem;
   margin-bottom: 20px;
 }
 
-/* line 508, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 528, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .card__parrafo {
   line-height: 28px;
   font-size: 1rem;
 }
 
-/* line 513, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 533, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .boton {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
@@ -560,14 +584,14 @@ h1 {
 }
 
 /*tarjetas de precios*/
-/* line 526, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 546, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .planes {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-/* line 531, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 551, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .card--planes {
   /* width: 300px;
     position: relative;
@@ -581,13 +605,13 @@ h1 {
   transition: all ease-in-out 1s;
 }
 
-/* line 542, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 562, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .card--planes:hover {
   box-shadow: 0 0 0 20em inset #5555fa;
   color: #eee;
 }
 
-/* line 548, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 568, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .title {
   font-family: 'Montserrat' sans-serif;
   font-size: 30px;
@@ -599,38 +623,38 @@ h1 {
   color: #833ab4;
 }
 
-/* line 559, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 579, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .price {
   margin-top: -25px;
   text-align: center;
 }
 
-/* line 562, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 582, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .price h5 {
   font-size: 4em;
   margin-top: 20px;
   padding: 20px;
 }
 
-/* line 566, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 586, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .price h5 sup {
   font-size: 25px;
 }
 
-/* line 569, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 589, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .price h5 p {
   margin-top: -135px;
   font-size: 12px;
   padding-bottom: 25px;
 }
 
-/* line 579, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 599, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .option {
   position: relative;
   padding: 10px;
 }
 
-/* line 582, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 602, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .option li {
   text-align: center;
   font-size: 12px;
@@ -639,7 +663,7 @@ h1 {
   list-style: none;
 }
 
-/* line 591, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 611, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .button1 {
   position: absolute;
   bottom: 5%;
@@ -658,36 +682,36 @@ h1 {
   box-shadow: 0 0 8PX #0909E6;
 }
 
-/* line 607, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 627, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .button1:hover {
   background: #eee;
   color: #5555fa;
 }
 
 /*footer*/
-/* line 615, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 635, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .footerGeneral {
   background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
-/* line 621, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 641, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .footerIcons {
   display: flex;
   justify-content: space-evenly;
 }
 
-/* line 627, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 647, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .footerIcon {
   color: #000;
 }
 
-/* line 629, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 649, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .footerIcon:hover {
   color: #833ab4;
 }
 
-/* line 636, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
+/* line 656, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .footerContainerIcons {
   display: inline-block;
   width: 60px;
