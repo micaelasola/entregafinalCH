@@ -2,6 +2,10 @@ $point-sm: 576px;
 $point-md: 768px;
 $point-lg: 980px;
 
-$bg-color-gradient: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%); ;
+$bg-color-gradient: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%); 
+
+$bg-color-text: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
 
 $font-color-main: #833ab4;
+
+$box-shadow: 0 .5rem 1rem rgba(#000, .15);
