@@ -392,63 +392,7 @@ h1 {
 }
 
 /*testimonios de usuarios*/
-.testimonyGrid {
-  width: 100%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  gap: 30px;
-}
 
-.testimonyItem {
-  width: 95%;
-  margin: 0 auto;
-  background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  border-radius: 7px;
-  padding: 30px 25px;
-  color: white;
-  margin-bottom: 50px;
-}
-
-.testimonyperson {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 20px;
-}
-
-.testimonyImg {
-  width: 100px;
-  min-width: 100px;
-  height: 100px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: top;
-     object-position: top;
-  border-radius: 50px;
-  border: 3px solid white;
-  margin-right: 30px;
-}
-
-.testimonyName {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.testimonyVerification {
-  color: #6b5288;
-  font-weight: bold;
-}
-
-.testimonyReview {
-  font-weight: lighter;
-}
 
 .contenedor {
   max-width: 1000px;
