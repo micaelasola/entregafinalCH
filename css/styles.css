@@ -674,7 +674,7 @@ text-align: center;
 }
 
 /* line 602, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
-.card--planes {
+.card--planes{
   cursor: pointer;
   background: #eee;
   color: #555555fa;
@@ -684,7 +684,7 @@ text-align: center;
 }
 
 /* line 611, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
-.card--planes:hover {
+.card--planes:hover{
   box-shadow: 0 0 0 20em inset #5555fa;
   color: #eee;
 }
@@ -732,6 +732,14 @@ text-align: center;
   padding: 10px;
 }
 
+.suscripcion{
+  text-align: center;
+  font-size: 15px;
+  padding: 8px;
+  font-weight: bold;
+  list-style: none;
+}
+
 /* line 651, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .option li {
   text-align: center;
@@ -759,6 +767,7 @@ text-align: center;
   transition: all ease-in-out;
   box-shadow: 0 0 8PX #0909E6;
 }
+
 
 /* line 676, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .button1:hover {
