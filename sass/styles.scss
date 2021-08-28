@@ -634,8 +634,6 @@ h1{
     text-align: center;
 }
 .card--planes{
-
-   
     cursor: pointer;
     background: #eee;
     color: #555555fa;
@@ -647,6 +645,7 @@ h1{
         color: #eee;
     }
 }
+
 
 .title{
     font-family: 'Montserrat' sans-serif;
@@ -683,23 +682,18 @@ h1{
     position: relative;
     padding: 10px;
 }
-
-
 .suscripcion{
-        
-            text-align: center;
-            font-size: 15px;
-            padding: 8px;
-            font-weight: bold;
-            list-style: none;
-    
+    text-align: center;
+    font-size: 15px;
+    padding: 8px;
+    font-weight: bold;
+    list-style: none;
 }
-
 
 .button1{
     position: absolute;
     bottom: 5%;
-    left: 40%;
+    left: 35%;
     outline: none;
     border: none;
     background: #5555fa;
