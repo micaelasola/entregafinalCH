@@ -30,7 +30,6 @@ body {
 .container {
   width: 90%;
   margin: 0 auto;
-  overflow: hidden;
   padding: 80px 0;
   max-width: 1200px;
 }
@@ -214,16 +213,17 @@ h1 {
 }
 
 /* line 173, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
-.button {
+.button{
   margin: auto;
   text-align: center;
+
 }
 
 /* line 176, ../../../../../../../../../../../../../Users/micaelasola/Desktop/Entrega Final Coder House/entregafinalCH/sass/styles.scss */
 .button a {
-  color: #fff;
+  color:#fff;
   text-decoration: none;
-  padding: 4px;
+  padding: 15px;
   cursor: pointer;
 }
 
@@ -375,6 +375,9 @@ h1 {
 padding-top: 0;
 }
 
+.tarjeta h3{
+  font-size: 30px;
+}
 
 .info{
 font-size: 15px;

@@ -43,7 +43,6 @@ body{
 .container {
 	width: 90%;
 	margin: 0 auto;
-	/*overflow: hidden;*/
 	padding: 80px 0;
 	max-width: 1200px;
 }
@@ -339,7 +338,14 @@ h1{
 
 .tarjetas{
     padding-top: 0;
+    
 }
+
+.tarjeta h3{
+    font-size: 30px;
+}
+
+
 
 
 .info{
